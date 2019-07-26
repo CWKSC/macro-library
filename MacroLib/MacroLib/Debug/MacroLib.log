@@ -1,0 +1,3 @@
+﻿  main.c
+d:\user\develop\github\macrolib\macrolib\macrolib\main.c(26): warning C4003: 類似函式的巨集引動過程 'loopBy2d' 沒有足夠的引數
+  MacroLib.vcxproj -> D:\User\Develop\GitHub\MacroLib\MacroLib\Debug\MacroLib.exe

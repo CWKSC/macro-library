@@ -16,20 +16,20 @@
               loopBy(p1, __VA_ARGS__), \
               __VA_ARGS__)
 
-//
+// 遍历二维阵列的 Looping 
 #define loopBy2d(var1, times1, var2, ...) \
-    loopBy(var2, times1){                 \
+    loopBy(var1, times1){                 \
         loopBy(var2, __VA_ARGS__)
 
-//
+// 二维纯粹循环
 #define pureLoop2d(n, ...) \
-    pureLoop(n){         \
+    pureLoop(n){           \
         pureLoop(__VA_ARGS__)
 
-//
-#define loop2d(p1, p2, ...)                   \
-    select0_2(pureLoop2d(p1, p2),             \
-              pureLoop2d(p1, p2, __VA_ARGS__, \
-              loopBy2d(p1, p2, __VA_ARGS__))  \
+// 合并两个二维 Looping
+#define loop2d(p1, p2, ...)                    \
+    select0_2(pureLoop2d(p1, p2),              \
+              pureLoop2d(p1, p2, __VA_ARGS__), \
+              loopBy2d(p1, p2, __VA_ARGS__),   \
               __VA_ARGS__)
 
