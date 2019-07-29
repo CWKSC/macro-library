@@ -9,6 +9,8 @@ This repository is related to some articles, but this is Chinese.
 
 ___
 
+#### [【Just For Fun】俺 是 目 录 ！](https://zhuanlan.zhihu.com/p/59807834)
+
 ### ▌**Macro 宏技巧：**
 
 1. [C - 宏开发 - 大綱、概括](https://zhuanlan.zhihu.com/p/59923365)
