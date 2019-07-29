@@ -77,7 +77,7 @@ typedef struct LinkedList LinkedList;
 //
 #define pushFrontByNewNodeByValue(list, newNodeName, value) \
     newNodeByValue(newNodeName, value)                      \
-    pushFrontByNodeAddress_Safe(list, newNodeName);
+    if(newNodeName){ pushFrontByNodeAddress_Safe(list, newNodeName); }
 
 //
 #define pushFrontByNode(list, node) \
@@ -105,10 +105,12 @@ typedef struct LinkedList LinkedList;
     initLinkedList(list);
 
 //
-#define freeLinkedList(list) \
+#define freeLinkedList(list)                                 \
+    if(list.head){                                           \
     freeLinkedList_template(list,                            \
                             uniqueVarName(macroNodeTempVar), \
-							uniqueVarName(macroNodeTempVar))
+							uniqueVarName(macroNodeTempVar)) \
+    }
 
 //
 #define printLinkedList_template(list, tmp)        \
@@ -119,7 +121,7 @@ typedef struct LinkedList LinkedList;
 
 //
 #define printLinkedList(list) \
-    printLinkedList_template(list, uniqueVarName(macroNodeTempVar))
+    if(list.head){ printLinkedList_template(list, uniqueVarName(macroNodeTempVar)) }
 
 
 

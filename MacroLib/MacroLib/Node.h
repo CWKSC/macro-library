@@ -31,13 +31,16 @@ typedef struct Node Node;
 
 //
 #define newNode(name) \
-    Node* name = malloc(sizeof(Node));
+    Node* name = (Node*)malloc(sizeof(Node));
 
 //
 #define newNodeByValue(name, inValue) \
     newNode(name);                    \
-    (*name).value = inValue;          \
-    (*name).next = NULL;
+    if(name){                         \
+        (*name).value = inValue;          \
+        (*name).next = NULL;              \
+	}
+    
 
 //
 #define newNodeByNode(newNodeName, inNode) \

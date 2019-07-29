@@ -29,6 +29,12 @@ int main() {
 	ln;
 	}
 
+	createLinkedList(list);
+	pushFrontByValue(list, 10);
+	pushFrontByValue(list, 12);
+	printLinkedList(list);
+	freeLinkedList(list);
+
 	system("pause");
 	return 0;
 }
