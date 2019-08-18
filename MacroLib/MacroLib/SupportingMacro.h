@@ -1,6 +1,7 @@
 #pragma once
 
 #define ln putchar('\n')
+#define ln2 printf("\n\n")
 
 #define refer *
 
