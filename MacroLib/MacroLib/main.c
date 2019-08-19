@@ -10,6 +10,7 @@
 
 int main() {
 
+
 	// easyFor() //
 	// 1 至 100 的总和 //
 	printf("[easyFor] 1 至 100 的总和\n");
@@ -20,6 +21,7 @@ int main() {
 	printf("%d\n", sum_easyFor);
 	ln;
 
+
 	// flexFor() //
 	// 1 至 100 内奇数的总和 //
 	printf("[flexFor] 1 至 100 内奇数的总和\n");
@@ -29,6 +31,7 @@ int main() {
 	}
 	printf("%d\n", sum_flexFor);
 	ln;
+
 
 	// ffor() //
 	// 计算 [1 至 100] 及 [101 至 200 内奇数] 的总和 //
@@ -42,6 +45,7 @@ int main() {
 	}
 	printf("%d\n", sum_ffor);  //12550
 	ln;
+
 
 	// loopBy() //
 	// 遍历 x * y 的二维阵列 //
@@ -59,6 +63,7 @@ int main() {
 #undef y
 	ln;
 
+
 	// pureLoop() //
 	// 输出 n * n 的 * 方阵 //
 	printf("[pureLoop] 输出 n * n 的 * 方阵\n");
@@ -71,6 +76,7 @@ int main() {
 	}
 #undef n
 	ln;
+
 
 	// loop2d() //
 	// 遍历 x * y 的二维阵列 //
@@ -87,6 +93,7 @@ int main() {
 #undef x
 #undef y
 
+
 	// loop2d() //
 	// 二维纯粹循环 //
 	// 输出 n * n 的 * 方阵 //
@@ -100,6 +107,16 @@ int main() {
 #undef n
 	ln;
 
+
+	// forech() //
+	printf("[forech] 遍历阵列\n");
+	int arr[10] = { 1, 3, 4, 2, 1, 2, 3, 7, 9, 1 };
+	forech(int, x, arr,
+		printf("%d ", x);
+	);
+	ln2;
+
+
 	// Linked List //
 	printf("[Linked List]\n");
 	createLinkedList(list);
@@ -109,11 +126,6 @@ int main() {
 	freeLinkedList(list);
 	ln2;
 
-	int arr[10] = { 1, 3, 4, 2, 1, 2, 3, 7, 9, 1 };
-	forech(int, x, arr,
-		printf("%d ", x);
-	)
-	ln;
 
 	system("pause");
 	return 0;

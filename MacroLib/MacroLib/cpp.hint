@@ -1,0 +1,21 @@
+// 提示檔案會協助 Visual Studio IDE 解譯 Visual C++ 識別碼
+// 例如函式和巨集的名稱。
+// 如需詳細資訊，請參閱 https://go.microsoft.com/fwlink/?linkid=865984
+#define forech(type, var, list, __VA_ARGS__) loopBy(i, arrLength(list)){ type var = list[i]; __VA_ARGS__ }
+
+// 遍历二维阵列的 Looping 
+#define loopBy2d(var1, times1, var2, ...) \
+    loopBy(var1, times1){                 \
+        loopBy(var2, __VA_ARGS__)
+
+// 二维纯粹循环
+#define pureLoop2d(n, ...) \
+    pureLoop(n){           \
+        pureLoop(__VA_ARGS__)
+
+// 合并两个二维 Looping
+#define loop2d(p1, p2, ...)                    \
+    select0_2(pureLoop2d(p1, p2),              \
+              pureLoop2d(p1, p2, __VA_ARGS__), \
+              loopBy2d(p1, p2, __VA_ARGS__),   \
+              __VA_ARGS__)

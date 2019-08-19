@@ -45,4 +45,7 @@
       <Filter>標頭檔\Looping</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
 </Project>
