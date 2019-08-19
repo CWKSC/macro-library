@@ -15,6 +15,8 @@ ___
 
 #### [【Just For Fun】俺 是 目 录 ！](https://zhuanlan.zhihu.com/p/59807834)
 
+整合 [【Just For Fun】](https://zhuanlan.zhihu.com/p/59807834) 所有文章中有关宏的代码。
+
 ### ▌**Macro 宏技巧：**
 
 1. [C - 宏开发 - 大綱、概括](https://zhuanlan.zhihu.com/p/59923365)
@@ -36,7 +38,9 @@ ___
 
 ### ▌**应用篇：**
 
-1. [n 階行列式計算 宏 生成器](https://zhuanlan.zhihu.com/p/77057988)
+1. [n 階行列式計算 宏 生成器，四阶行列式的最优展开](https://zhuanlan.zhihu.com/p/77057988)
+2. [n 階行列式計算 宏 生成器（重构）](https://zhuanlan.zhihu.com/p/77388741)
+3. [拉格朗日插值多项式生成器](https://zhuanlan.zhihu.com/p/77491558)
 
 ### **▌杂项：**
 
