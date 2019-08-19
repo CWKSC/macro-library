@@ -2,6 +2,9 @@
 
 #include "SupportingMacro.h"
 
+#define arrLength(arr) \
+    (sizeof(arr) / sizeof(arr[0]))
+
 // 针对遍历阵列，默认 var 从 0 开始，递增为 1
 #define loopBy(var, ...) \
     for(int var = 0; var != __VA_ARGS__; var++)

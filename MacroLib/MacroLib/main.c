@@ -84,6 +84,8 @@ int main() {
 	ln;
 	}
 	ln;
+#undef x
+#undef y
 
 	// loop2d() //
 	// 二维纯粹循环 //
@@ -106,6 +108,12 @@ int main() {
 	printLinkedList(list);
 	freeLinkedList(list);
 	ln2;
+
+	int arr[10] = { 1, 3, 4, 2, 1, 2, 3, 7, 9, 1 };
+	forech(int, x, arr,
+		printf("%d ", x);
+	)
+	ln;
 
 	system("pause");
 	return 0;

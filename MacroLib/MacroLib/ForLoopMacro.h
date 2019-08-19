@@ -16,4 +16,10 @@
               flexFor(var, start, end, __VA_ARGS__), \
               __VA_ARGS__)
 
+// forech
+#define forech(type, var, list, ...) \
+    loopBy(i, arrLength(list)){      \
+        type var = list[i];          \
+        __VA_ARGS__                  \
+	}
 
