@@ -1,9 +1,8 @@
 # MacroLib
- A Library for Macro (C/C++)
 
-___
+A Library for Macro (C/C++)
 
-vs2019.
+Advanced skill of Macro.
 
 ___
 
