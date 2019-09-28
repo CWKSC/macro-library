@@ -63,3 +63,12 @@
 #define select0_7VS(va_args, m0, m1, m2, m3, m4, m5, m6, m7) select_va_args_0_7(m7, m6, m5, m4, m3, m2, m1, m0, va_args)
 #define select0_8VS(va_args, m0, m1, m2, m3, m4, m5, m6, m7, m8) select_va_args_0_8(m8, m7, m6, m5, m4, m3, m2, m1, m0, va_args)
 
+#define ifTrue(condition, expersion) \
+    condition && expersion
+
+#define ifFalse(condition, expersion) \
+    !condition && expersion
+
+#define conditionalOperator(condition, exp1, exp2) \
+    ifTrue(condition, exp1), ifFalse(condition, exp2)
+

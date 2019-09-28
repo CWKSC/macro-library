@@ -116,9 +116,28 @@ int main() {
 	);
 	ln2;
 
+	// ifTrue() //
+	printf("[ifTrue]\n");
+	printf("ifTrue(1, printf(\"OK\")) : ");  ifTrue(1, printf("OK")); ln;
+	printf("ifTrue(0, printf(\"OK\")) : ");  ifTrue(0, printf("OK")); ln;
+	ln;
+
+	// ifFalse() //
+	printf("[ifFalse]\n");
+	printf("ifFalse(1, printf(\"OK\")) : "); ifFalse(1, printf("OK")); ln;
+	printf("ifFalse(0, printf(\"OK\")) : "); ifFalse(0, printf("OK")); ln;
+	ln;
+
+	// conditionalOperator() // 
+	printf("[conditionalOperator]\n");
+	printf("conditionalOperator(1, exp1, exp2) : ");
+	conditionalOperator(1, printf("exp1"), printf("exp2");); ln;
+	printf("conditionalOperator(0, exp1, exp2) : ");
+	conditionalOperator(0, printf("exp1"), printf("exp2"););
+	ln2;
 
 	// Linked List //
-	printf("[Linked List]\n");
+	printf("[Linked List] push 10, push 12, print\n");
 	createLinkedList(list);
 	pushFrontByValue(list, 10);
 	pushFrontByValue(list, 12);

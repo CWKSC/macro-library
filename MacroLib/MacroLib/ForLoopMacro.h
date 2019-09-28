@@ -19,7 +19,8 @@
 // forech
 #define forech(type, var, list, ...) \
     loopBy(i, arrLength(list)){      \
-        type var = list[i];          \
+        type var = (type)list[i];          \
         __VA_ARGS__                  \
 	}
+
 
