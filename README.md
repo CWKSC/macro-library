@@ -1,8 +1,8 @@
 # MacroLib
 
-A Library for Macro (C/C++)
+A Library for Macro (C/C++) Macro 宏库(C / C ++) 
 
-Advanced skill of Macro.
+Advanced skill of Macro. 宏的高级技巧
 
 ___
 
