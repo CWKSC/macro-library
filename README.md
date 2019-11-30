@@ -1,14 +1,14 @@
 # MacroLib
 
-A Library for Macro (C/C++) Macro 宏库(C / C ++) 
+A Library for Macro (C/C++) Macro 宏库(C / C ++) 巨集庫(C / C ++)
 
-Advanced skill of Macro. 宏的高级技巧
+Advanced skill of Macro. 宏的高级技巧。 巨集的高級技巧。
 
 ___
 
 This repository is related to some articles, but this is Chinese.
 
-这个仓库跟某些文章有关系，不过这是中文的。
+这个仓库跟某些文章有关系，不过这是中文的。 這個倉庫跟某些文章有關係，不過這是簡體中文的。
 
 ___
 
