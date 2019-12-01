@@ -8,7 +8,9 @@ ___
 
 This repository is related to some articles, but this is Chinese.
 
-这个仓库跟某些文章有关系，不过这是中文的。 這個倉庫跟某些文章有關係，不過這是簡體中文的。
+这个仓库跟某些文章有关系，不过这是中文的。 
+
+這個倉庫跟某些文章有關係，不過這是簡體中文的。
 
 ___
 
