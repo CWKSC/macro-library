@@ -14,9 +14,29 @@ This repository is related to some articles, but this is Chinese.
 
 ___
 
-#### [【Just For Fun】俺 是 目 录 ！](https://zhuanlan.zhihu.com/p/59807834)
+#### [【Just For Fun】系列文章索引](https://zhuanlan.zhihu.com/p/59807834)
 
 整合 [【Just For Fun】](https://zhuanlan.zhihu.com/p/59807834) 所有文章中有关宏的代码。
+
+
+
+## **【Just For Fun】**
+
+> 本系列纯粹娱乐、研究用。一些旁门左道的东西。
+> 事实上可能完全没用。 (๑•̀ω•́๑)
+
+**开了一个坑，喜欢的话关注赞好謝謝。~**
+学业繁重，尝试一周一更。
+
+这个系列将会使用很多宏的技巧去帮助开发。
+
+另外就是一些玩具，可能没什么用的研究。(っ●ω●)っ
+
+## ▌目錄**：**
+
+### ▌github 源代码：
+
+[【Just For Fun】github, 源代码，所有文章中有关宏的代码](https://zhuanlan.zhihu.com/p/75353995)
 
 ### ▌**Macro 宏技巧：**
 
@@ -36,6 +56,8 @@ ___
 3. [C - 换行](https://zhuanlan.zhihu.com/p/69300862)
 4. [C - 针对遍历阵列的 Looping](https://zhuanlan.zhihu.com/p/68627239) （ (1.) 的 Looping 部分重制版）
 5. [C - 针对遍历二维阵列的 Looping](https://zhuanlan.zhihu.com/p/75323881)
+6. [C 实现 try catch - 说明书](https://zhuanlan.zhihu.com/p/97061040)
+7. [C 实现 try catch - 代码部分、使用例子、运行结果](https://zhuanlan.zhihu.com/p/97077403)
 
 ### ▌**应用篇：**
 
@@ -43,7 +65,16 @@ ___
 2. [n 階行列式計算 宏 生成器（重构）](https://zhuanlan.zhihu.com/p/77388741)
 3. [拉格朗日插值多项式生成器](https://zhuanlan.zhihu.com/p/77491558)
 
-### **▌杂项：**
+### **▌**宏 **杂项：**
 
 1. [危險的宏，宏定义污染](https://zhuanlan.zhihu.com/p/70292429)
-2. [玩坏预处理器](https://zhuanlan.zhihu.com/p/75584300)
+2. [玩坏预处理器、无限递归展开](https://zhuanlan.zhihu.com/p/75584300)
+
+### ▌数学：
+
+1. [阶乘、Gamma 函数、斯特灵公式 Stirling's formula](https://zhuanlan.zhihu.com/p/91879417)
+
+### ▌其他：
+
+1. [AnyType 任意类型](https://zhuanlan.zhihu.com/p/91867932)
+2. [测字符串长度的各种姿势](https://zhuanlan.zhihu.com/p/91880493)
