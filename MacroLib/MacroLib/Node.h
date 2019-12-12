@@ -1,8 +1,8 @@
 #pragma once
 
 struct Node {
-	int value;
-	struct Node *next;
+    int value;
+    struct Node *next;
 };
 typedef struct Node Node;
 
@@ -26,8 +26,8 @@ typedef struct Node Node;
 //
 #define moveToNextNodeByNodeAddress_Safe(node) \
     if(node != NULL){                          \
-	    moveToNextNodeByNodeAddress(node)      \
-	}
+        moveToNextNodeByNodeAddress(node)      \
+    }
 
 //
 #define newNode(name) \
@@ -39,7 +39,7 @@ typedef struct Node Node;
     if(name){                         \
         (*name).value = inValue;          \
         (*name).next = NULL;              \
-	}
+    }
     
 
 //

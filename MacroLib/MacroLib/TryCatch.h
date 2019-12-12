@@ -10,10 +10,10 @@ char* cwksc_BackPointName = NULL;
 
 #define try(backPointName, ...)                     \
     if(strcmp(cwksc_ExceptionName, "")){            \
-	    cwksc_BackPointName = #backPointName;       \
-	    if(strcmp("" #__VA_ARGS__, ""))             \
-		    cwksc_ExceptionName = "" #__VA_ARGS__;  \
-	    goto cwksc_catchStart;                      \
+        cwksc_BackPointName = #backPointName;       \
+        if(strcmp("" #__VA_ARGS__, ""))             \
+            cwksc_ExceptionName = "" #__VA_ARGS__;  \
+        goto cwksc_catchStart;                      \
     }                                               \
     backPointName:
 
@@ -28,7 +28,7 @@ char* cwksc_BackPointName = NULL;
 
 #define back(backPoint)                            \
     if(!strcmp(cwksc_BackPointName, #backPoint)){  \
-	    goto backPoint;                            \
+        goto backPoint;                            \
     }
 
 #define back2(arg2, arg1) back(arg2) back(arg1) printf("[Error] 沒有透過 try 進入 catch / 找不到相應的返回點");
@@ -62,20 +62,23 @@ char* cwksc_BackPointName = NULL;
     cwksc_ExceptionName = #exceptionName;  \
     return __VA_ARGS__;
 
-#define giveThrow(ex_name) \
-    cwksc_ExceptionName = #ex_name;
-
 #define clearThrow() \
     cwksc_ExceptionName = "";
-
-#define checkThrow(ex_name, ...)         \
-    if(strcmp(cwksc_ExceptionName, "")){  \
-        cwksc_ExceptionName = #ex_name;   \
-        return __VA_ARGS__;               \
-    }
 
 #define check(...)                        \
     if(strcmp(cwksc_ExceptionName, "")){  \
         return __VA_ARGS__;               \
     }
+
+
+#define giveThrow(exceptionName) \
+    cwksc_ExceptionName = #exceptionName;
+
+#define checkThrow(exceptionName, ...)         \
+    if(strcmp(cwksc_ExceptionName, "")){       \
+        cwksc_ExceptionName = #exceptionName;  \
+        return __VA_ARGS__;                    \
+    }
+
+
 

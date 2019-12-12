@@ -21,6 +21,6 @@
     loopBy(i, arrLength(list)){      \
         type var = (type)list[i];          \
         __VA_ARGS__                  \
-	}
+    }
 
 
