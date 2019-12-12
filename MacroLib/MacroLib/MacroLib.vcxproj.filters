@@ -19,6 +19,9 @@
     <Filter Include="標頭檔\Looping">
       <UniqueIdentifier>{beeb75fd-a6af-4985-aedc-6ca8c7e1f119}</UniqueIdentifier>
     </Filter>
+    <Filter Include="標頭檔\TryCatch">
+      <UniqueIdentifier>{856312e9-d728-4a72-80f5-48714c3b58b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="ForLoopMacro.h">
       <Filter>標頭檔\Looping</Filter>
+    </ClInclude>
+    <ClInclude Include="TryCatch.h">
+      <Filter>標頭檔\TryCatch</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

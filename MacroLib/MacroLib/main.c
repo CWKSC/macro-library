@@ -7,6 +7,21 @@
 #include "ForLoopMacro.h"
 #include "ArrayLoopingMacro.h"
 #include "LinkedList.h"
+#include "TryCatch.h"
+
+
+double my_sqrt(double input) {
+
+	// 檢查值是否小於零，默認 給出 名爲 isNegative 的錯誤
+	if (input < 0) {
+		giveThrow(isNegative); \
+	}
+
+	// 檢查有否發生錯誤，有則回傳括弧内的值
+	check(0.0);
+
+	return sqrt(input);
+}
 
 int main() {
 
@@ -144,6 +159,31 @@ int main() {
 	printLinkedList(list);
 	freeLinkedList(list);
 	ln2;
+
+	// 有發生錯誤 --> isNegative
+	my_sqrt(-10); try(ex1);
+
+	// 沒有發生錯誤
+	my_sqrt(20); try(ex2);
+
+	// 有發生錯誤，改名為 another_ex 的錯誤
+	my_sqrt(-30); try(ex3, anthor_ex);
+
+	system("pause");
+
+	// 正常到達這裏，會回傳括弧内的值 //
+	catchStart(0);
+	catch (isNegative) {
+		printf("[isNegative] exception is happened!\n");
+	}
+	catch (anthor_ex) {
+		printf("[anthor_ex] exception is happened!\n");
+	}
+	finally() {
+		printf("[finally()] exception is happened!\n\n");
+	}
+	// 標出所有返回點
+	catchEnd(ex1, ex2, ex3)
 
 
 	system("pause");
