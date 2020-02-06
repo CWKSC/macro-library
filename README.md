@@ -14,7 +14,7 @@ This repository is related to some articles, but this is Chinese.
 
 ___
 
-Let see the main.c for demo: 讓我們看一下main.c進行演示：
+Let see the `main.c` for demo: 讓我們看一下 `main.c` 進行演示：
 
 ```c
 #include <stdio.h>
