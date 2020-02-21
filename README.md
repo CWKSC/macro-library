@@ -1,14 +1,12 @@
 # MacroLib
 
-A Library for Macro (C/C++) Macro 宏库(C / C ++) 巨集庫(C / C ++)
+A Library for Macro (C/C++) Macro 巨集庫(C / C ++)
 
-Advanced skill of Macro. 宏的高级技巧。 巨集的高級技巧。
+Advanced skill of Macro. 巨集的高級技巧。
 
 ___
 
 This repository is related to some articles, but this is Chinese.
-
-这个仓库跟某些文章有关系，不过这是中文的。 
 
 這個倉庫跟某些文章有關係，不過這是簡體中文的。
 
@@ -66,8 +64,8 @@ int main() {
 
 
     // easyFor() //
-    // 1 至 100 的总和 //
-    printf("[easyFor] 1 至 100 的总和\n");
+    // 1 至 100 的總和 //
+    printf("[easyFor] 1 至 100 的總和\n");
     int sum_easyFor = 0;
     easyFor(i, 1, 100) {  // for(int i = 1; i <= 100; i++)
         sum_easyFor += i;
@@ -77,8 +75,8 @@ int main() {
 
 
     // flexFor() //
-    // 1 至 100 内奇数的总和 //
-    printf("[flexFor] 1 至 100 内奇数的总和\n");
+    // 1 至 100 內奇數的總和 //
+    printf("[flexFor] 1 至 100 內奇數的總和\n");
     int sum_flexFor = 0;
     flexFor(i, 1, 100, i += 2) {  // for(int i = 1; i <= 100; i+=2)
         sum_flexFor += i;
@@ -88,8 +86,8 @@ int main() {
 
 
     // ffor() //
-    // 计算 [1 至 100] 及 [101 至 200 内奇数] 的总和 //
-    printf("[ffor] 计算 [1 至 100] 及 [101 至 200 内奇数] 的总和\n");
+    // 計算 [1 至 100] 及 [101 至 200 內奇數] 的總和 //
+    printf("[ffor] 計算 [1 至 100] 及 [101 至 200 內奇數] 的總和\n");
     int sum_ffor = 0;
     ffor(i, 1, 100) {  //easyFor(i, 1, 100)
         sum_ffor += i;
@@ -102,8 +100,8 @@ int main() {
 
 
     // loopBy() //
-    // 遍历 x * y 的二维阵列 //
-    printf("[loopBy] 遍历 x * y 的二维阵列\n");
+    // 遍歷 x * y 的二維陣列 //
+    printf("[loopBy] 遍歷 x * y 的二維陣列\n");
 #define x 3
 #define y 4
     int array2d_loopBy[x][y] = { 0 };
@@ -119,8 +117,8 @@ int main() {
 
 
     // pureLoop() //
-    // 输出 n * n 的 * 方阵 //
-    printf("[pureLoop] 输出 n * n 的 * 方阵\n");
+    // 輸出 n * n 的 * 方陣 //
+    printf("[pureLoop] 輸出 n * n 的 * 方陣\n");
 #define n 3
     pureLoop(n) {
         pureLoop(n) {
@@ -133,8 +131,8 @@ int main() {
 
 
     // loop2d() //
-    // 遍历 x * y 的二维阵列 //
-    printf("[loop2d] 遍历 x * y 的二维阵列\n");
+    // 遍歷 x * y 的二維陣列 //
+    printf("[loop2d] 遍歷 x * y 的二維陣列\n");
 #define x 3
 #define y 4
     int array2d_loop2d[x][y] = { 0 };
@@ -149,9 +147,9 @@ int main() {
 
 
     // loop2d() //
-    // 二维纯粹循环 //
-    // 输出 n * n 的 * 方阵 //
-    printf("[loop2d] 输出 n * n 的 * 方阵 \n");
+    // 二維純粹循環 //
+    // 輸出 n * n 的 * 方陣 //
+    printf("[loop2d] 輸出 n * n 的 * 方陣 \n");
 #define n 3
     loop2d(n, n) {
         printf("* ");
@@ -163,7 +161,8 @@ int main() {
 
 
     // forech() //
-    printf("[forech] 遍历阵列\n");
+    // 遍歷陣列 //
+    printf("[forech] 遍歷陣列\n");
     int arr[10] = { 1, 3, 4, 2, 1, 2, 3, 7, 9, 1 };
     forech(int, x, arr,
         printf("%d ", x);
