@@ -1,13 +1,8 @@
 # MacroLib
 
-<style>
-body {
-    font-family: "Microsoft JhengHei","微軟正黑體";
-}</style>
-
 A Library for Macro (C/C++) Macro 巨集庫(C / C ++)
 
-Advanced skill of Macro. 巨集的高級技巧。
+<font face="微軟正黑體">Advanced skill of Macro. 巨集的高級技巧。</font>
 
 ___
 
