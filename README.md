@@ -6,11 +6,15 @@ For example: delayed expansion, distinguishing the number of parameters, expandi
 
 Implement default parameters, create unique variable names, and a bunch of derived syntactic sugar
 
+Even try catch in C, of course not the original one
+
 這個倉庫包括了一些巨集的進階技巧，
 
 例如：延遲展開、辨別參數數目、**按照參數數目展開不同的宏**
 
 **實現默認參數**、建立唯一的變數名稱，還有一堆衍生出來的語法糖
+
+甚至用 C 實現 try catch，當然不是原版的那種
 
 ___
 
