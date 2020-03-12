@@ -1,11 +1,5 @@
 # MacroLib
 
-A Library for Macro (C/C++) Macro 巨集庫(C / C ++)
-
-Advanced skill of Macro. 巨集的進階技巧。
-
-___
-
 This repository contains some advanced techniques for macros.
 
 For example: delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer
