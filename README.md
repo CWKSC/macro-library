@@ -2,13 +2,27 @@
 
 A Library for Macro (C/C++) Macro 巨集庫(C / C ++)
 
-<font face="微軟正黑體">Advanced skill of Macro. 巨集的高級技巧。</font>
+Advanced skill of Macro. 巨集的進階技巧。
 
 ___
 
-This repository is related to some articles, but this is Chinese.
+This repository contains some advanced techniques for macros.
 
-這個倉庫跟某些文章有關係，不過這是簡體中文的。
+For example: delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer
+
+Implement default parameters, create unique variable names, and a bunch of derived syntactic sugar
+
+這個倉庫包括了一些巨集的進階技巧，
+
+例如：延遲展開、辨別參數數目、**按照參數數目展開不同的宏**
+
+**實現默認參數**、建立唯一的變數名稱，還有一堆衍生出來的語法糖
+
+___
+
+This repository is related to some articles, the relevant URL is at the bottom, but this is in simplified Chinese.
+
+這個倉庫跟某些文章有關係，相關的網址在最底下，不過這是簡體中文的。
 
 ___
 
