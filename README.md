@@ -2,7 +2,9 @@
 
 This repository contains some advanced techniques for macros.
 
-For example: delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer
+For example:
+
+delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer
 
 Implement default parameters, create unique variable names, and a bunch of derived syntactic sugar
 
