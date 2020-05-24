@@ -329,7 +329,7 @@ conditionalOperator(0, exp1, exp2) : exp2
 
 ___
 
-`SupportingMacro.h`
+#### `SupportingMacro.h`
 
 ```c
 #pragma once
@@ -400,9 +400,9 @@ ___
 
 ___
 
-`ArrayLoopingMacro.h`
+#### `ArrayLoopingMacro.h`
 
-```
+```c
 #pragma once
 
 #include "SupportingMacro.h"
@@ -444,7 +444,7 @@ ___
 
 ___
 
-`ForLoopMacro.h`
+#### `ForLoopMacro.h`
 
 ```c
 #pragma once
