@@ -43,7 +43,7 @@
 #define get9thVS(...) midLayer( get9th(__VA_ARGS__) )
 #define get10thVS(...) midLayer( get10th(__VA_ARGS__) )
 
-#define parameterNum(...) get10thVS(__VA_ARGS__, 9, 8, 7, 6 , 5, 4, 3, 2, 1)
+#define parameterNum(...) get10thVS(__VA_ARGS__, 9, 8, 7, 6, 5, 4, 3, 2, 1)
 
 #define select0_1(m0, m1, ...) get3th leftBracket eatComma(__VA_ARGS__), m1, m0 )
 #define select0_2(m0, m1, m2, ...) get4th leftBracket eatComma(__VA_ARGS__), m2, m1, m0)
@@ -62,4 +62,13 @@
 #define select0_6VS(va_args, m0, m1, m2, m3, m4, m5, m6) select_va_args_0_6(m6, m5, m4, m3, m2, m1, m0, va_args)
 #define select0_7VS(va_args, m0, m1, m2, m3, m4, m5, m6, m7) select_va_args_0_7(m7, m6, m5, m4, m3, m2, m1, m0, va_args)
 #define select0_8VS(va_args, m0, m1, m2, m3, m4, m5, m6, m7, m8) select_va_args_0_8(m8, m7, m6, m5, m4, m3, m2, m1, m0, va_args)
+
+#define ifTrue(condition, expersion) \
+    condition && expersion
+
+#define ifFalse(condition, expersion) \
+    !condition && expersion
+
+#define conditionalOperator(condition, exp1, exp2) \
+    ifTrue(condition, exp1), ifFalse(condition, exp2)
 

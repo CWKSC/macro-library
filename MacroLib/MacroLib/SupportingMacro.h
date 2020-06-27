@@ -43,7 +43,7 @@
 #define get9thVS(...) midLayer( get9th(__VA_ARGS__) )
 #define get10thVS(...) midLayer( get10th(__VA_ARGS__) )
 
-#define parameterNum(...) get10thVS(__VA_ARGS__, 9, 8, 7, 6 , 5, 4, 3, 2, 1)
+#define parameterNum(...) get10thVS(__VA_ARGS__, 9, 8, 7, 6, 5, 4, 3, 2, 1)
 
 #define select0_1(m0, m1, ...) get3th leftBracket eatComma(__VA_ARGS__), m1, m0 )
 #define select0_2(m0, m1, m2, ...) get4th leftBracket eatComma(__VA_ARGS__), m2, m1, m0)

@@ -3,9 +3,9 @@
 #include "Node.h"
 
 struct LinkedList {
-	Node *head;
-	Node *tail;
-	int count;
+    Node *head;
+    Node *tail;
+    int count;
 };
 typedef struct LinkedList LinkedList;
 
@@ -109,14 +109,14 @@ typedef struct LinkedList LinkedList;
     if(list.head){                                           \
     freeLinkedList_template(list,                            \
                             uniqueVarName(macroNodeTempVar), \
-							uniqueVarName(macroNodeTempVar)) \
+                            uniqueVarName(macroNodeTempVar)) \
     }
 
 //
 #define printLinkedList_template(list, tmp)        \
     Node *tmp = list.head;                         \
     travelLinkedList(list, tmp,                    \
-	    printf("%d ", getValueByNodeAddress(tmp)); \
+        printf("%d ", getValueByNodeAddress(tmp)); \
     )
 
 //
