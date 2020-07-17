@@ -1,6 +1,6 @@
 # MacroLib
 
-Some updates in the new preprocessor for Visual Studio 2019 and C++20 version
+Some updates in the new preprocessor of Visual Studio 2019 and C++20 version
 
 The new version marco lib in here: [MyLib_Cpp_Macro](https://github.com/CWKSC/MyLib_Cpp_Macro)
 
