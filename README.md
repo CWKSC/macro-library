@@ -4,23 +4,17 @@ Some updates in the new preprocessor of Visual Studio 2019 and C++20 version
 
 The new version marco lib in here: [MyLib_Cpp_Macro](https://github.com/CWKSC/MyLib_Cpp_Macro)
 
-___
+## What is it?
 
-This repository contains some advanced techniques for macros.
+This repository contains some advanced techniques for macros. For example:
 
-For example:
-
-delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer
-
-Implement default parameters, create unique variable names, and a bunch of derived syntactic sugar
+delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer, Implement default parameters, create unique variable names, and a bunch of derived syntactic sugar
 
 Even try catch in C, of course not the original one
 
-這個倉庫包括了一些巨集的進階技巧，
+這個倉庫包括了一些巨集的進階技巧
 
-例如：延遲展開、辨別參數數目、**按照參數數目展開不同的宏**
-
-**實現默認參數**、建立唯一的變數名稱，還有一堆衍生出來的語法糖
+例如：延遲展開、辨別參數數目、**按照參數數目展開不同的宏**、**實現默認參數**、建立唯一的變數名稱，還有一堆衍生出來的語法糖
 
 甚至用 C 實現 try catch，當然不是原版的那種
 
@@ -32,7 +26,7 @@ This repository is related to some articles, the relevant URL is at the bottom, 
 
 ___
 
-Let see the `main.c` for demo: 讓我們看一下 `main.c` 進行演示：
+Let see the `main.c` for demo: 
 
 ```c
 #include <stdio.h>
