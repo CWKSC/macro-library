@@ -4,7 +4,7 @@
 
 新版本的 MacroLib在這裏： [MyLib_Cpp_Macro](https://github.com/CWKSC/MyLib_Cpp_Macro)
 
-## What is it?
+## 這是什麽？
 
 這個倉庫包括了一些巨集的進階技巧
 
@@ -18,7 +18,7 @@ ___
 
 ___
 
-Let see the `main.c` for demo: 
+讓我們看一下 `main.c` 的演示：
 
 ```c
 #include <stdio.h>
