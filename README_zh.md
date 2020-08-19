@@ -1,24 +1,20 @@
 # MacroLib
 
-Language: [zh](https://github.com/CWKSC/MacroLib/blob/master/README_zh.md)
+在 Visual Studio 2019 和 C ++ 20 版本的新預處理器中有一些更新
 
-___
-
-Some updates in the new preprocessor of Visual Studio 2019 and C++20 version
-
-The new version marco lib in here: [MyLib_Cpp_Macro](https://github.com/CWKSC/MyLib_Cpp_Macro)
+新版本的 MacroLib在這裏： [MyLib_Cpp_Macro](https://github.com/CWKSC/MyLib_Cpp_Macro)
 
 ## What is it?
 
-This repository contains some advanced techniques for macros. For example:
+這個倉庫包括了一些巨集的進階技巧
 
-delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer, Implement default parameters, create unique variable names, and a bunch of derived syntactic sugar
+例如：延遲展開、辨別參數數目、**按照參數數目展開不同的宏**、**實現默認參數**、建立唯一的變數名稱，還有一堆衍生出來的語法糖
 
-Even try catch in C, of course not the original one
+甚至用 C 實現 try catch，當然不是原版的那種
 
 ___
 
-This repository is related to some articles, the relevant URL is at the bottom, but this is in simplified Chinese.
+這個倉庫跟某些文章有關係，相關的網址在最底下，不過這是簡體中文的。
 
 ___
 
@@ -256,7 +252,7 @@ int main() {
 }
 ```
 
-### And the corresponding output:
+### 和相應的輸出：
 
 ```c
 [easyFor] 1 至 100 的總和
@@ -321,9 +317,7 @@ conditionalOperator(0, exp1, exp2) : exp2
 請按任意鍵繼續 . . .
 ```
 
-___
-
-#### `SupportingMacro.h`
+### `SupportingMacro.h`
 
 ```c
 #pragma once
