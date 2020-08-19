@@ -2,8 +2,6 @@
 
 Language: [zh](https://github.com/CWKSC/MacroLib/blob/master/README_zh.md)
 
-___
-
 Some updates in the new preprocessor of Visual Studio 2019 and C++20 version
 
 The new version marco lib in here: [MyLib_Cpp_Macro](https://github.com/CWKSC/MyLib_Cpp_Macro)
