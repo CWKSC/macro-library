@@ -315,8 +315,6 @@ conditionalOperator(0, exp1, exp2) : exp2
 
 [changeExeptionName] exception is happened!
 [finally()] exception is happened!
-
-請按任意鍵繼續 . . .
 ```
 
 ___
@@ -400,31 +398,31 @@ ___
 #define arrLength(arr) \
     (sizeof(arr) / sizeof(arr[0]))
 
-// 针对遍历阵列，默认 var 从 0 开始，递增为 1
+// 針對遍歷陣列，默認 var 從 0 開始，遞增為 1
 #define loopBy(var, ...) \
     for(int var = 0; var != __VA_ARGS__; var++)
 
-// 不在乎循环变量，只要单纯的重复次数
+// 不在乎循環變量，只要單純的重複次數
 #define pureLoop(...) \
     loopBy( uniqueVarName(macroLoopTempVar), __VA_ARGS__)
 
-// 合并两个 Looping
+// 合併兩個 Looping
 #define loop(p1, ...)                  \
     select0_1(pureLoop(p1),            \
               loopBy(p1, __VA_ARGS__), \
               __VA_ARGS__)
 
-// 遍历二维阵列的 Looping 
+// 遍歷二維陣列的 Looping
 #define loopBy2d(var1, times1, var2, ...) \
     loopBy(var1, times1){                 \
         loopBy(var2, __VA_ARGS__)
 
-// 二维纯粹循环
+// 二維純粹循環
 #define pureLoop2d(n, ...) \
     pureLoop(n){           \
         pureLoop(__VA_ARGS__)
 
-// 合并两个二维 Looping
+// 合併兩個二維 Looping
 #define loop2d(p1, p2, ...)                    \
     select0_2(pureLoop2d(p1, p2),              \
               pureLoop2d(p1, p2, __VA_ARGS__), \
@@ -439,15 +437,15 @@ ___
 
 #include "SupportingMacro.h"
 
-// 简化版 for loop
+// 簡化版 for loop
 #define easyFor(var, start, end) \
     for(int var = start; var <= end; var++)
 
-// 較灵活的 for loop
+// 較靈活的 for loop
 #define flexFor(var, start, end, ...) \
     for(int var = start; var <= end; __VA_ARGS__)
 
-// 合并以上两个 for loop
+// 合併以上兩個 for loop
 #define ffor(var, start, end, ...)                   \
     select0_1(easyFor(var, start, end),              \
               flexFor(var, start, end, __VA_ARGS__), \
