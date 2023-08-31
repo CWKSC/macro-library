@@ -10,13 +10,13 @@ The new version marco lib in here: [MyLib_Cpp_Macro](https://github.com/CWKSC/My
 
 This repository contains some advanced techniques for macros. For example:
 
-delayed expansion, distinguishing the number of parameters, expanding different macros according to the parameter integer, Implement default parameters, create unique variable names, and a bunch of derived syntactic sugar
-
-Even try catch in C, of course not the original one
-
-___
-
-This repository is related to some articles, the relevant URL is at the bottom, but this is in simplified Chinese.
+* Delayed expansion
+* Distinguishing the number of parameters
+* Expanding different macros according to the parameter integer
+* Implementing default parameters
+* Create unique variable names
+* Even try catch in C, of course not traditional one
+* ... and a bunch of derived syntactic sugar
 
 ___
 
