@@ -1,10 +1,16 @@
 # MacroLib
 
+> [!CAUTION]
+> 
+> This is no longer maintained and used
+>
+> Also, don't use too much C marco in project, it is just for fun
+
 Language: [zh](https://github.com/CWKSC/MacroLib/blob/master/README_zh.md)
 
 Some updates in the new preprocessor of Visual Studio 2019 and C++20 version
 
-The new version marco lib in here: [MyLib_Cpp_Macro](https://github.com/CWKSC/MyLib_Cpp_Macro)
+The new version marco lib in here: [my-library-cpp-macro](https://github.com/CWKSC/my-library-cpp-macro)
 
 ## What is it?
 
