@@ -6,7 +6,7 @@
 >
 > Also, don't use too much C marco in project, it is just for fun
 
-Language: [zh](https://github.com/CWKSC/MacroLib/blob/master/README_zh.md)
+Language: [zh](https://github.com/CWKSC/macro-library/blob/master/README_zh.md)
 
 Some updates in the new preprocessor of Visual Studio 2019 and C++20 version
 
